@@ -1,0 +1,49 @@
+/* Seção my projects */
+#projects{
+    width: 100%;
+  }
+  
+  #project-area{
+    box-shadow: 
+    0 3.4px 4.6px rgba(0, 0, 0, 0.092),
+    0 9.5px 12.8px rgba(0, 0, 0, 0.121),
+    0 22.9px 30.8px rgba(0, 0, 0, 0.156),
+    0 76px 102px rgba(0, 0, 0, 0.21);
+    border-radius: 10px;
+  }
+  #projects .container{
+    padding: 40px 0;
+  }
+  
+  
+  @media(max-width: 768px){
+    #projects-container{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+    #project-area{
+      margin: 0 auto;
+      border-radius: 0;
+    }
+  }
+  
+  #borda3{
+    width: 300px;
+    border: 2px solid #33393f;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  @media(max-width: 768px){
+    #borda3{
+      width: 200px;
+      border: 2px solid #33393f;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    } 
+  }
+ 
+  
+  /* Fim Seção my projects */
+  

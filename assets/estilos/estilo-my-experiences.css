@@ -1,0 +1,46 @@
+#experiences{
+    width: 100%;
+  
+    padding: 30px;
+    margin-top: 100px;
+    padding-bottom: 80px;
+  }
+  
+  
+#area-experiences{
+    box-shadow: 
+    0 3.4px 4.6px rgba(0, 0, 0, 0.092),
+    0 9.5px 12.8px rgba(0, 0, 0, 0.121),
+    0 22.9px 30.8px rgba(0, 0, 0, 0.156),
+    0 76px 102px rgba(0, 0, 0, 0.21);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: -90px;
+}
+  
+#area-experiences h3{
+    text-align: center;
+}
+  
+#borda{
+    width: 300px;
+    border: 2px solid #33393f;
+    margin: 0 auto;
+}
+  
+#experience-buttons{
+    margin: 30px 0;
+}
+
+#experience-area{
+    margin: 40px 0;
+}
+#experience-area ul{
+    list-style: none;
+}
+  
+#borda{
+    width: 250px;
+    border: 2px solid #33393f;
+    margin: 0 auto;
+}

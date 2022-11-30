@@ -1,0 +1,39 @@
+/* Seção Offering for clients */
+
+#offering{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
+#borda2{
+    width: 430px;
+    border: 2px solid #33393f;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+@media(max-width: 768px){
+    #borda2{
+        width: 300px;
+        border: 2px solid #33393f;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+#offering{
+    text-align: center;
+}
+
+#oferta1, #oferta2, #oferta3{
+    padding: 20px;
+    transition: all 0.7s;
+    border-radius: 10px;
+    cursor: default;
+}
+#oferta1:hover, #oferta2:hover, #oferta3:hover{
+    box-shadow: 
+    0 3.4px 4.6px rgba(0, 0, 0, 0.092),
+    0 9.5px 12.8px rgba(0, 0, 0, 0.121),
+    0 22.9px 30.8px rgba(0, 0, 0, 0.156),
+    0 76px 102px rgba(0, 0, 0, 0.21);
+} 

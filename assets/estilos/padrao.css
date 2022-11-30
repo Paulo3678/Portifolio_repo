@@ -1,0 +1,15 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+=
+
+.xp .card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 
+    0 3.4px 4.6px rgba(0, 0, 0, 0.092),
+    0 9.5px 12.8px rgba(0, 0, 0, 0.121),
+    0 22.9px 30.8px rgba(0, 0, 0, 0.156),
+    0 76px 102px rgba(0, 0, 0, 0.21);
+}
