@@ -1,0 +1,57 @@
+:root {
+    --amarelo: #FED049;
+    --green: #68B984;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header div.cta a {
+    background-color: var(--green);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.navbar{
+    padding: 20px;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navbar .navbar-brand{
+    color: var(--amarelo);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.navbar .navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
